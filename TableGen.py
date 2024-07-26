@@ -28,7 +28,7 @@ def calculate_slopes(x, y, interval=1):
     y_new = np.arange(min(y), max(y) + interval, interval)
     x_new = f(y_new)
     
-    slopes = np.gradient(x_new, y_new)
+    slopes = np.gradient(y_new, x_new)
     
     return x_new, y_new, slopes
 
