@@ -1,3 +1,4 @@
+#Melita's Code 
 #calculates the rate of cooling for temperatures at an interval of 1 degrees
 #reads csv file with 2 columns t and T
 #stores the calculated rate with t and T columns as R column in a seperate file
